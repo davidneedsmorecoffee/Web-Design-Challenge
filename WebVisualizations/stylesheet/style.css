@@ -1,0 +1,108 @@
+/*the project LATITUDE portion of the navbar */
+/*https://stackoverflow.com/questions/11178673/how-to-override-important*/
+.navigation .navbar-brand{
+    color: white !important; 
+    background-color: rgb(149, 194, 173) !important;
+    padding: inherit; 
+}
+
+/* Body, i.e., background of the page*/
+body{
+    background-color: rgb(227, 238, 250); 
+}
+
+/* font size of the right top menu, including 'plots' (and its drop-downs), 'comparison', and 'data' */ 
+a{
+    color: rgb(99, 117, 133);
+    font-size: 20px; 
+}
+
+/* formatting of the summary and visualization boxes*/
+/* formatting the margin outside of the boxes + padding withing each box  */
+.box {
+    margin-top: 60px; 
+    margin-bottom: 60px; 
+    padding: 10px 20px 15px 25px; /*padding top right bottom left*/
+    background-color: rgb(255, 255, 255); 
+}
+
+/* color of the title header of each box */
+.title{
+    color: rgb(145, 188, 189);
+}
+
+/* title header of the subtitle headers, e.g., comparisons page */
+.subtitle{
+    color: rgb(149, 193, 194);
+    font-size: 22px; 
+    text-align: center; 
+}
+
+/* Text size of paragraphs */
+p{
+    color: #6D8092;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 19px; 
+}
+
+/* image size on the landing page + text wrap and resizing */
+/*https://www.w3schools.com/css/css_float.asp */
+.main_fig{
+    float: right;
+    width:55% !important;
+    height:55% !important;
+}
+
+/* Figures / plots sizing */
+img{
+    width:100% !important;
+    height:100% !important;
+}
+
+/* color of the boxes when mouse cover each of the 4 panel figures */
+.active, .panel:hover{
+    border-color:rgb(149, 193, 194);
+    border-style: solid;   
+}
+
+/* page footer format */
+footer{
+    background-color: rgb(188, 197, 206); 
+    color: rgb(109, 109, 109); 
+
+    border-top-style: transparent; 
+    border-top-width: 2px; 
+
+    min-height: 30px; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px; 
+    text-align: center; 
+    position: fixed;
+    
+    bottom: 0; /*align it to the bottom of the screen; 10 would move it off the screen*/
+    left:0; /*align it to the left of the screen*/
+    width: 100%;
+    padding-top: 5px; 
+    }
+
+/* https://stackoverflow.com/questions/21168521/table-fixed-header-and-scrollable-body */
+/* This makes the table so the header is fixed */
+.table-responsive{ 
+    overflow-y: auto; height: 400px; 
+}
+
+.table-responsive thead th{ 
+    position: sticky; top: 0;
+}
+
+table{ 
+    border-collapse: collapse; width: 100%; 
+}
+
+th, td{ 
+    padding: 8px 16px;
+}
+
+th{ 
+    background:#eee;
+}
