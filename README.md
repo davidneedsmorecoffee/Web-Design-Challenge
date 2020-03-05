@@ -1,22 +1,24 @@
 # Sample Website wth Basic Visualization
 
-Using a previously analyzed data set based on weather data (`Resources/cities.csv`  and https://github.com/davidneedsmorecoffee/python-and-api-for-weather-and-vacation-destination-analysis)
+Using a previously analyzed data set based on weather data 
+* `Resources/cities.csv`
+* https://github.com/davidneedsmorecoffee/python-and-api-for-weather-and-vacation-destination-analysis)
 
 A visualization dashboard website was created. Here's the breakdown of the website:
 * 7 pages total
   *Each page will contain visualizations and their corresponding explanations
 
-    * A [landing page](#landing-page):
+    * 1 landing page:
       * Explanation of the project.
       * Links to each visualizations page.
-    * Four [visualization pages](#visualization-pages):
+    * 4 visualization pages:
       * The plot/visualization itself for the selected comparison.
       * Interpretation of the plot and its significance.
-    * A ["Comparisons" page](#comparisons-page):
+    * 1 comparisons page:
       * Contains all of the visualizations on the same page for easy visual comparison.
       * Bootstrap grid was used for the visualizations.
         * The grid was sized to display two visualizations across on large and medium screens, or one visuzliation across on extra-small and small screens.
-    * A ["Data" page](#data-page):
+    * 1 data page:
       * Displays a responsive table containing the data used in the visualizations.
         * The table was made with bootstrap table component.
         * The data was based on conversion of `.csv` file to HTML via pandas.
