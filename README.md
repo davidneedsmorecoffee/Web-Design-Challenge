@@ -26,4 +26,4 @@ A visualization dashboard website was created. Here's the breakdown of the websi
 Other small features of the website include:
   * Home button in the top left corner to return to the landing page from any page.
   * Dropdown `plots` menu on the top right corner which provides links to each individual visualization page.
-  * Links on the top right  "Data" 
+  * Links on the top right to access the `comparisons` or `Data` pages
