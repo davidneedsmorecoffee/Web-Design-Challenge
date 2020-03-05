@@ -1,5 +1,5 @@
-# Sample Website wth Basic Visualization
-Link here: https://davidneedsmorecoffee.github.io/Web-Design-Challenge/WebVisualizations/index.html
+# Sample website wth basic data summary and visualization
+Link to the webpage here: https://davidneedsmorecoffee.github.io/Web-Design-Challenge/WebVisualizations/index.html
 
 ### Using a previously analyzed data set based on weather data 
 * `Resources/cities.csv`
