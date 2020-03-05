@@ -1,10 +1,11 @@
 # Sample Website wth Basic Visualization
+Link here: https://davidneedsmorecoffee.github.io/Web-Design-Challenge/WebVisualizations/index.html
 
-Using a previously analyzed data set based on weather data 
+### Using a previously analyzed data set based on weather data 
 * `Resources/cities.csv`
 * https://github.com/davidneedsmorecoffee/python-and-api-for-weather-and-vacation-destination-analysis)
 
-A visualization dashboard website was created. Here's the breakdown of the website:
+### A visualization dashboard website was created. Here's the breakdown of the website:
 * 7 pages total
   *Each page will contain visualizations and their corresponding explanations
 
@@ -23,7 +24,7 @@ A visualization dashboard website was created. Here's the breakdown of the websi
         * The table was made with bootstrap table component.
         * The data was based on conversion of `.csv` file to HTML via pandas.
 
-Other small features of the website include:
+### Other small features of the website include:
   * Home button in the top left corner to return to the landing page from any page.
   * Dropdown `plots` menu on the top right corner which provides links to each individual visualization page.
   * Links on the top right to access the `Comparisons` or `Data` pages
