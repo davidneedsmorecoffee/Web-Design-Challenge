@@ -46,7 +46,7 @@ p{
 }
 
 /* image size on the landing page + text wrap and resizing */
-/*https://www.w3schools.com/css/css_float.asp */
+/* https://www.w3schools.com/css/css_float.asp */
 .main_fig{
     float: right;
     width:55% !important;
