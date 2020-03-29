@@ -1,5 +1,5 @@
 # Sample website for **Project LATITTUE** wth basic data summary and visualization
-Link to the webpage here: https://davidneedsmorecoffee.github.io/Web-Design-Challenge/WebVisualizations/index.html
+Link to the webpage here: https://davidneedsmorecoffee.github.io/WebVisualizations/index.html
 
 ### Using a previously analyzed data set based on weather data 
 * `Resources/cities.csv`
